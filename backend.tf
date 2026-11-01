@@ -4,5 +4,6 @@ terraform {
     key          = "terraform.tfstate"
     region       = "us-east-1"
     use_lockfile = true
+    allowed_account_ids = ["444219106999"]
   }
 }
